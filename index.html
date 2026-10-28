@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Moon Phase Planner &amp; Lunar Journal App · Free Demo · Cosmic Femme Studio</title>
+  <meta name="theme-color" content="#FBF3EF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1027" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="icon" href="assets/icons/favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-500-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="src/styles.css">
+
+  <meta name="description" content="Try the Cosmic Femme Moon Planner free: today's moon phase and moon sign, void-of-course times, new moon intentions, full moon rituals, eclipses, retrogrades and a private lunar journal. No birth chart, no account.">
+  <link rel="canonical" href="https://cosmicfemmestudio.github.io/moon-planner/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Cosmic Femme Studio">
+  <meta property="og:title" content="Moon Phase Planner &amp; Lunar Journal App · Free Demo · Cosmic Femme Studio">
+  <meta property="og:description" content="Try the Cosmic Femme Moon Planner free: today's moon phase and moon sign, void-of-course times, new moon intentions, full moon rituals, eclipses, retrogrades and a private lunar journal. No birth chart, no account.">
+  <meta property="og:url" content="https://cosmicfemmestudio.github.io/moon-planner/">
+  <meta property="og:image" content="https://cosmicfemmestudio.github.io/moon-planner/assets/brand/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://cosmicfemmestudio.github.io/moon-planner/#studio","name":"Cosmic Femme Studio","url":"https://www.etsy.com/shop/CosmicFemmeStudio","logo":"https://cosmicfemmestudio.github.io/moon-planner/assets/icons/icon-512.png","slogan":"Made for the mystics and moon girls.","sameAs":["https://www.etsy.com/shop/CosmicFemmeStudio"]},{"@type":"WebApplication","name":"Cosmic Femme Moon Planner","url":"https://cosmicfemmestudio.github.io/moon-planner/","applicationCategory":"LifestyleApplication","operatingSystem":"iOS, iPadOS, Android, Windows, macOS (any modern web browser)","browserRequirements":"Requires JavaScript","description":"Try the Cosmic Femme Moon Planner free: today's moon phase and moon sign, void-of-course times, new moon intentions, full moon rituals, eclipses, retrogrades and a private lunar journal. No birth chart, no account.","image":"https://cosmicfemmestudio.github.io/moon-planner/assets/brand/og.jpg","publisher":{"@id":"https://cosmicfemmestudio.github.io/moon-planner/#studio"},"featureList":["Daily moon phase and illumination","Moon sign and sign change times","Void-of-course moon times","New moon intentions and full moon release rituals","Moon calendar with eclipses and retrogrades","Private lunar journal with moods and tags","Twelve months of sky events","Tropical or sidereal (Lahiri) zodiac","Works offline and installs to the Home Screen"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free demo. The full planner is sold by Cosmic Femme Studio on Etsy.","url":"https://www.etsy.com/shop/CosmicFemmeStudio"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Cosmic Femme Moon Planner?","acceptedAnswer":{"@type":"Answer","text":"A moon phase planner and lunar journal that runs on your phone. It shows today's moon phase and moon sign, guides new moon intentions and full moon release rituals, lists eclipses and retrogrades, and keeps a private journal on your device."}},{"@type":"Question","name":"Do I need my birth date, time or place?","acceptedAnswer":{"@type":"Answer","text":"No. The planner follows the moon for everyone, so there is nothing to set up and no birth chart is needed."}},{"@type":"Question","name":"Does it work on iPhone and Android?","acceptedAnswer":{"@type":"Answer","text":"Yes. It works in Safari on iPhone and iPad, Chrome on Android, and Chrome, Edge, Firefox or Safari on a computer. The full planner installs to your Home Screen like an app."}},{"@type":"Question","name":"Does it work offline?","acceptedAnswer":{"@type":"Answer","text":"The full planner works offline once it is added to your Home Screen. The free demo needs an internet connection."}},{"@type":"Question","name":"Is my journal private?","acceptedAnswer":{"@type":"Answer","text":"Yes. There are no accounts, no cloud and no tracking. Journal entries are stored only on your own device, and you can download a backup file at any time."}},{"@type":"Question","name":"How accurate are the moon times?","acceptedAnswer":{"@type":"Answer","text":"New and full moons, moon sign changes, void-of-course times, eclipses and retrogrades are calculated on your device from precise astronomy models and checked against NASA and US Naval Observatory data, to within a minute or two."}},{"@type":"Question","name":"Is there a subscription?","acceptedAnswer":{"@type":"Answer","text":"No. The full planner is a one-time digital download from Cosmic Femme Studio on Etsy, yours for life, with free updates."}},{"@type":"Question","name":"What is the difference between the demo and the full planner?","acceptedAnswer":{"@type":"Answer","text":"The free demo shows today's moon in full and lets you try the journal (3 entries), one ritual, the current month and the next 30 days of sky events. The full planner unlocks everything, without limits, and installs and works offline."}}]}]}</script>
+</head>
+<body>
+  <!-- Painted at once while the app loads; main.js replaces it with the same frame. -->
+  <div class="sky-bg" aria-hidden="true"></div>
+  <div class="layout">
+    <header class="masthead">
+      <span class="brand"><img src="assets/brand/medallion.webp" alt="" width="48" height="48"><span class="brand-text"><span class="brand-studio">Cosmic Femme</span><span class="brand-app">Moon Planner</span></span></span>
+    </header>
+    <main><p class="loading-moon" aria-label="Loading">Reading the moon…</p></main>
+  </div>
+
+  <section class="seo-about" style="max-width:680px;margin:40px auto;padding:0 16px">
+    <h1>Cosmic Femme Moon Planner: a moon phase planner and lunar journal app</h1>
+    <p>Know what the moon is doing today, set intentions at the new moon, release at the full moon, and keep a private lunar journal on your own phone. Made by Cosmic Femme Studio. No birth chart, no account, no subscription.</p>
+    <h2>Features</h2>
+    <ul><li>Today's moon phase, illumination and moon sign</li><li>Moon sign change times and void-of-course moon</li><li>New moon intentions and full moon release rituals for every sign</li><li>Moon calendar with eclipses, Mercury retrograde and planetary stations</li><li>Twelve months of sky events with notes</li><li>Private journal with moods, tags, search and backups</li><li>Tropical or sidereal (Lahiri) zodiac, light and dark themes</li></ul>
+    <h2>Questions</h2>
+    <h3>What is the Cosmic Femme Moon Planner?</h3><p>A moon phase planner and lunar journal that runs on your phone. It shows today's moon phase and moon sign, guides new moon intentions and full moon release rituals, lists eclipses and retrogrades, and keeps a private journal on your device.</p>
+    <h3>Do I need my birth date, time or place?</h3><p>No. The planner follows the moon for everyone, so there is nothing to set up and no birth chart is needed.</p>
+    <h3>Does it work on iPhone and Android?</h3><p>Yes. It works in Safari on iPhone and iPad, Chrome on Android, and Chrome, Edge, Firefox or Safari on a computer. The full planner installs to your Home Screen like an app.</p>
+    <h3>Does it work offline?</h3><p>The full planner works offline once it is added to your Home Screen. The free demo needs an internet connection.</p>
+    <h3>Is my journal private?</h3><p>Yes. There are no accounts, no cloud and no tracking. Journal entries are stored only on your own device, and you can download a backup file at any time.</p>
+    <h3>How accurate are the moon times?</h3><p>New and full moons, moon sign changes, void-of-course times, eclipses and retrogrades are calculated on your device from precise astronomy models and checked against NASA and US Naval Observatory data, to within a minute or two.</p>
+    <h3>Is there a subscription?</h3><p>No. The full planner is a one-time digital download from Cosmic Femme Studio on Etsy, yours for life, with free updates.</p>
+    <h3>What is the difference between the demo and the full planner?</h3><p>The free demo shows today's moon in full and lets you try the journal (3 entries), one ritual, the current month and the next 30 days of sky events. The full planner unlocks everything, without limits, and installs and works offline.</p>
+    <p><a href="https://www.etsy.com/shop/CosmicFemmeStudio">Get the full planner from Cosmic Femme Studio on Etsy</a></p>
+  </section>
+  <noscript>The moon planner needs JavaScript turned on.</noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
